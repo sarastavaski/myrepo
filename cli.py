@@ -11,7 +11,6 @@ import click
 from myrepolib.repomod import print_name
 from myrepolib import __version__
 
-
 @click.version_option(__version__)
 @click.command()
 @click.option("--name", help="name to print")
